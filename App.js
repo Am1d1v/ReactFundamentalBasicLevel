@@ -6,8 +6,13 @@ const Header = function(){
 };
 
 const Field =  function(){
+  const placeholder = 'Enter here';
+  const styledField = {
+      width: '300px',
+      height: '15px'
+  }
   return(
-    <input placeholder='Type here' type='text'/>
+    <input placeholder={placeholder} type='text' style={styledField}/>
   )
 }
 
