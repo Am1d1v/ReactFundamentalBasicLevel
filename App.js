@@ -12,13 +12,14 @@ const Field =  function(){
 }
 
 function Btn(){
-  const text = "Log In";
+  const text = "Please log in";
+  const logged = true;
+  //const logged = false;
   const res = () => {
     return 'Logged In';
   }
   return(
-    
-    <button>{res()}</button>
+    <button>{logged ? 'Enter' :text}</button>
   )
 }
 
