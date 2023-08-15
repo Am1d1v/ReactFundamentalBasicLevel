@@ -12,7 +12,10 @@ const Field =  function(){
       height: '15px'
   }
   return(
-    <input placeholder={placeholder} type='text' style={styledField}/>
+    <input 
+      placeholder={placeholder}
+      type='text'
+      style={styledField}/>
   )
 }
 
